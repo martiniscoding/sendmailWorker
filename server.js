@@ -55,3 +55,4 @@ const worker = new Worker(
     connection,
   }
 );
+console.log("Worker is running and listening for jobs...");

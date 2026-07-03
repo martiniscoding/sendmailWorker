@@ -15,7 +15,7 @@ export function applicationRejected(data) {
           <!-- Header -->
           <tr>
             <td style="background:linear-gradient(135deg,#8B0000 0%,#B22222 100%);border-radius:12px 12px 0 0;padding:36px 40px;text-align:center;">
-              <img src="https://jeesociety.com/logo.png" alt="JEEsociety" width="80" height="80" style="display:block;margin:0 auto 16px;border-radius:16px;border:0;" />
+              <img src="https://jeesoc-ten.vercel.app/logo.png" alt="JEEsociety" width="80" height="80" style="display:block;margin:0 auto 16px;border-radius:16px;border:0;" />
               <p style="margin:0;font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);letter-spacing:1px;text-transform:uppercase;">Careers</p>
             </td>
           </tr>
