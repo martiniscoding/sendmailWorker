@@ -55,4 +55,9 @@ const worker = new Worker(
     connection,
   }
 );
+worker.on('drained', async () => {
+  console.log('Saari jobs process ho gayi, exiting...');
+  await worker.close();
+  process.exit(0);
+});
 console.log("Worker is running and listening for jobs...");
